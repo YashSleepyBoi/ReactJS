@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+    height: 100%;
+}
+.formcontrol{
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    border: black 2px solid;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formcontrol__title{
+    color: black;
+    font-weight: medium;
+    font-size: large;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin:3%
+}
+.formcontrol__field{
+    padding: 1%;
+}
+
+.formcontrol__inputbox{
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(243, 214, 243);
+    padding: 2%;
+    width: 100%;
+}
+
+.formcontrol__button{
+    border:1px solid black ;
+    border-radius: 20px;
+    background-color: rgb(247, 175, 247);
+    padding: 2%;
+    margin: 3%;
+}
